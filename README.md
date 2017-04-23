@@ -2,7 +2,7 @@
 
 Esoteric Programming language for dummies
 
-### Dependences
+### Dependencies
 Lex/Flex
 
 YACC/Bison
