@@ -1,0 +1,84 @@
+p = 10
+q = 1.23
+r = true
+s = "hello"
+
+print "hello"
+
+a = 100
+print "value of a is: " a
+
+b = "hello, again!"
+print b
+
+c = " "
+print "enter string c:"
+read into c
+print "value of c is: " c
+
+d = 0.0
+print "enter float d:"
+read into d
+print "value of d is: " d
+
+e = true
+print e
+
+x = 2
+
+print "before swapping"
+print "value of p is: " p
+print "value of x is: " x
+
+swap p x
+
+print "after swapping"
+print "value of p is: " p
+print "value of x is: " x
+
+print "saving content into file!"
+write file "filename.txt" "hello, world!"
+
+append file "filename.txt" "hello, again!"
+
+write file "filename.txt" "overwriting - last hello!"
+print "success!"
+
+print "displaying contents of file: \n"
+read file "filename.txt"
+
+z = 14
+loop if z <= 20 begin
+print "hello"
+z = z + 2.0
+print z
+print "heyy"
+
+end
+
+function hello() { print a 
+	a = 10
+	print "hello function1"
+	print "value of a is: " a
+}
+
+
+function factorial() { print a 
+	a = 20
+	print "hello function2"
+	print "value of a is: " a
+
+	z = 5
+	fact = 1
+	loop if z > 0 begin
+		fact = fact * z
+		z = z - 1
+	end
+	print "factorial of 5 is: " fact
+}
+
+hello()
+
+factorial()
+
+hello()
