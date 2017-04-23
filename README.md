@@ -9,7 +9,7 @@ YACC/Bison
 
 ### Input
 
-Write your code in `input.txt`
+Place your code in `input.txt`
 
 
 ### Execution - Linux
