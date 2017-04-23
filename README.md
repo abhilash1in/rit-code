@@ -4,7 +4,7 @@ Esoteric Programming language for dummies
 
 ### Input
 
-Write your code in input.txt
+Write your code in `input.txt`
 
 
 ### Execution
