@@ -2,6 +2,10 @@
 
 Esoteric Programming language for dummies
 
+### Dependences
+Lex/Flex
+YACC/Bison
+
 ### Input
 
 Write your code in `input.txt`
